@@ -94,3 +94,6 @@ setjdk 1.8
 export HOMEBREW_GITHUB_API_TOKEN=XXX
 
 export HOMEBREW_NO_ANALYTICS=1
+
+source ~/dev/kubeaware/kubeaware.sh
+PROMPT='$(kubeaware_prompt) '$PROMPT
